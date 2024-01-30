@@ -1,0 +1,22 @@
+@media (max-width: 500px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    p {
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        color: #31375B;
+        margin-top: 15px;
+    }
+}

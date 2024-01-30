@@ -1,0 +1,31 @@
+@media (max-width: 500px) {
+    .header {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bus-wrap {
+        width: 128px;
+        height: 55px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .bus {
+        max-width: 100%;
+    }
+    
+    .heading {
+        font-weight: 600;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        color: #31375B;
+    }
+}
